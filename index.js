@@ -15,7 +15,7 @@ app.use('/api', userRouter);
 
 const PORT = 3200;
 // const HOST = process.env.HOST || '192.168.112.162';
-const HOST = process.env.HOST || '0.0.0.0';
+const HOST = process.env.HOST;
 
 // app.listen(port,'0.0.0.0',()=>{
 //   console.log(`node server listening on ${port}`);
